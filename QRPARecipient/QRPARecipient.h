@@ -10,6 +10,8 @@ class QRPARecipient : public QWidget
 public:
 	QRPARecipient(QWidget *parent = Q_NULLPTR);
 
+	void showmessage();
+
 private:
 	Ui::QRPARecipientClass ui;
 };
